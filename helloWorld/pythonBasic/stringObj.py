@@ -7,3 +7,7 @@ print(course.replace('for', '4'))
 print(course.replace('x', '4'))
 print('Python' in course)
 print(course)
+
+name = """Kim Younggeon"""
+print(name)
+print(name.upper())
