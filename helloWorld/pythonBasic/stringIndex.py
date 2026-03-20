@@ -4,3 +4,6 @@ print(len(a))  #10
 print(a[1])    #Y
 print(a[3:10]) #forever
 
+print(a[2:])   # forever
+print(a[:2])   #NY
+
