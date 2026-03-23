@@ -27,3 +27,12 @@ print(d)
 rate=10
 d='This products have %d%% of defect rates.' %rate
 print(d)
+
+
+#문자열 포맷 코드에 숫자를 같이 지정해주면 지정 문자열을 오른쪽에 정렬시키고 나머지는 공백으로 채우게 됨.
+e="%10s" %"hello"
+print(e)
+
+#문자열 포맷 코드에 음수인 숫자를 같이 지정해주면 지정 문자열을 왼쪽에 정렬시키고 나머지는 공백으로 채우게 됨.
+e="%-10sI'm %s" %("hi", "younggeon")
+print(e)
