@@ -39,8 +39,17 @@ print(e)
 
 #문자열 포맷 코드에 "0.*"을 같이 지정해줄 경우 *에 지정한 숫자만큼 소수점 자리수를 표현하게 됨.
 f="%0.4f" %3.1415926535
-print(f)
+print(f)    #3.1416
 
 #문자열 포맷 코드에 소수점 자리수 표현할 때 "%0.*f" 에서 "0"을 생략해도 결과는 같음.
 f="%.4f" %3.1415926535
-print(f)
+print(f)    #3.1416
+
+
+a="I eat {0} apples." .format(3)
+print(a)
+print()
+
+b= "I eat {0} apples." .format("five")
+print(b)
+
