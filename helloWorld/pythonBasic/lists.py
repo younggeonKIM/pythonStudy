@@ -18,3 +18,14 @@ b = [4, 5, 6, 7]
 print(a+b)
 print(b+a)
 print(a * 5)
+
+print(len(a+b))
+del(b[3])
+print(b)
+b.append(6)
+print(b)
+b.insert(3,7)
+print(b)
+b = [4, 5, 6, 7]
+b.insert(2,9)
+print(b)
